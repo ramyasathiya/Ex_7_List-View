@@ -27,6 +27,7 @@ Developed by: RAMYA S
 Registeration Number : 212222040130
 */
 ## ACTIVITY_MAIN.XML
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -41,7 +42,9 @@ Registeration Number : 212222040130
         android:layout_height="fill_parent"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 ## MYLIST.XML
+```
 <?xml version="1.0" encoding="utf-8"?>
 
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +59,9 @@ android:layout_marginTop="5dp"
 android:padding="2dp"
 android:textColor="#4d4d4d"
     />
+```
 ## STRINGS.XML
+```
 <resources>
     <string name="app_name">ListView</string>
     <string-array name="array_technology">
@@ -77,6 +82,7 @@ android:textColor="#4d4d4d"
 ```
 
 ## MAINACTIVITY.JAVA
+```
 package com.example.ex_7_listview;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -117,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+```
 
 
 
